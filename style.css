@@ -84,7 +84,8 @@ p{
     .languages{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: left;
+        margin-left: 10vh;
     }
     .languages img{
         margin-left: 0;
@@ -93,5 +94,21 @@ p{
         padding-top: 0;
         font-weight: bold;
         font-size: 3vh
+    }
+    .professional .container-work{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr 1.5fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .personal .marketing img{
+        width: 40vh;
+    }
+}
+
+@media (max-width: 1400px){
+    .personal .marketing img{
+        width: 40vh;
     }
 }
